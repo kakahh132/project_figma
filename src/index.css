@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: whitesmoke;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1;
+  color: inherit;
+}
+.btn {
+   background: #00193E;
+   color: white;
+   padding: 14px 15px;
+   border-radius: 8;
+   align-items: center;
+   justify-content: center;
+  cursor: pointer;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn-6{
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  border: 2px solid white;
+}

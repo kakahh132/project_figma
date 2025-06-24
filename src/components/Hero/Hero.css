@@ -1,0 +1,424 @@
+/* Original CSS (unchanged) */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    color: white;
+    padding-bottom: 100px;
+    background: url('../../assets/Group 7.png');
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 700px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.hero-text p {
+    line-height: 1.4;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.hero1 {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.hero1 img {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.hero2 {
+    position: absolute;
+    right: 0;
+}
+
+.heroo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.heroo :hover {
+    border: 3px solid #007bff;
+}
+
+.herom {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.herom :hover {
+    border: 3px solid #007bff;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+.text :hover {
+    border: 3px solid #007bff;
+}
+
+.heroo>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.herom img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hero5 {
+    margin-top: 500px;
+}
+
+.hero5 form {
+    display: flex;
+    gap: 10px;
+}
+
+.hero5 form input {
+    box-sizing: border-box;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    background-color: #00193E;
+    border: 4px solid darkblue;
+    border-radius: 12px;
+    height: 50px;
+}
+
+.hero5 form textarea {
+    width: 100%;
+    flex-direction: row;
+    background: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    background-color: #00193E;
+    border: 4px solid darkblue;
+    border-radius: 20px;
+}
+
+.hero4 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.hero4 p {
+    font-size: 25px;
+}
+
+.hero4 h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.hero6 {
+    text-align: right;
+}
+
+.arrow img {
+    padding-right: 100px;
+    top: 50%;
+    left: 50%;
+}
+
+.arrow1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.kelechi {
+    display: flex;
+    height: 50px;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+.b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    border: none;
+}
+
+/* ============================================ */
+/* Responsive Styles */
+/* ============================================ */
+
+/* Large desktops (1200px and up) */
+@media (max-width: 1200px) {
+    .hero-text {
+        padding-left: 80px;
+    }
+    
+    .hero-text h1 {
+        font-size: 55px;
+    }
+    
+    .kelechi {
+        margin-left: 450px;
+    }
+}
+
+/* Medium devices (tablets, 992px and below) */
+@media (max-width: 992px) {
+    .hero-text {
+        padding-left: 60px;
+        padding-top: 80px;
+        max-width: 600px;
+    }
+    
+    .hero-text h1 {
+        font-size: 48px;
+    }
+    
+    .hero4 h1 {
+        font-size: 42px;
+    }
+    
+    .hero4 p {
+        font-size: 22px;
+    }
+    
+    .hero5 {
+        margin-top: 400px;
+    }
+    
+    .kelechi {
+        margin-left: 350px;
+    }
+    
+    .heroo {
+        width: 130px;
+        height: 130px;
+        margin-right: 60px;
+    }
+    
+    .herom {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+/* Small devices (landscape phones, 768px and below) */
+@media (max-width: 768px) {
+    .hero-text {
+        padding-left: 40px;
+        padding-top: 70px;
+    }
+    
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    
+    .hero-text p {
+        font-size: 16px;
+    }
+    
+    .hero1 {
+        margin-top: 70px;
+    }
+    
+    .hero4 h1 {
+        font-size: 36px;
+    }
+    
+    .hero4 p {
+        font-size: 18px;
+    }
+    
+    .hero5 {
+        margin-top: 300px;
+    }
+    
+    .hero5 form {
+        flex-direction: column;
+    }
+    
+    .kelechi {
+        margin-left: 200px;
+    }
+    
+    .heroo {
+        width: 110px;
+        height: 110px;
+        margin-right: 40px;
+    }
+    
+    .herom {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .text, .b {
+        font-size: 18px;
+    }
+}
+
+/* Extra small devices (portrait phones, 576px and below) */
+@media (max-width: 576px) {
+    .hero-text {
+        padding-left: 20px;
+        padding-top: 60px;
+        align-items: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .hero-text p {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    
+    .hero1 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding-right: 0;
+    }
+    
+    .hero1 img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .hero2 {
+        position: static;
+        margin-top: 20px;
+    }
+    
+    .hero4 h1 {
+        font-size: 30px;
+    }
+    
+    .hero4 p {
+        font-size: 16px;
+    }
+    
+    .hero5 {
+        margin-top: 200px;
+        padding: 0 20px;
+    }
+    
+    .kelechi {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .heroo {
+        margin-right: 0;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .herom {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .text, .b {
+        font-size: 16px;
+    }
+}
+
+/* Very small devices (350px and below) */
+@media (max-width: 350px) {
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    
+    .hero4 h1 {
+        font-size: 26px;
+    }
+    
+    .hero4 p {
+        font-size: 14px;
+    }
+    
+    .hero5 form input,
+    .hero5 form textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .heroo {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .herom {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .text, .b {
+        font-size: 14px;
+    }
+}

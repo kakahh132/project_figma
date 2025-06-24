@@ -1,0 +1,230 @@
+/* Original CSS (unchanged) */
+.projectb {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    color: white;
+    background: url('../../assets/Group 7.png');
+    padding-bottom: 100px;
+}
+
+.projectc h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 85px;
+    font-weight: 600;
+    padding-top: 140px;
+}
+
+.bless {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.bless {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.bless:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    border-bottom: 4px solid white;
+}
+
+.bless::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    border-bottom: 4px solid white;
+    background-color: #007bff;
+    transition: width 0.3s ease-in-out;
+}
+
+.fg {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.goodiea {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+
+.goodiea img {
+    width: 500px;
+    height: 400px;
+    display: block;
+}
+
+.goodieb img {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.goodiea :hover {
+    border: 3px solid #007bff;
+}
+
+.goodieb :hover {
+    border: 3px solid #007bff;
+}
+
+/* ============================================ */
+/* Responsive Styles */
+/* ============================================ */
+
+/* Large desktops (1200px and up) */
+@media (max-width: 1200px) {
+    .projectc h1 {
+        font-size: 70px;
+        padding-top: 120px;
+    }
+    
+    .goodiea {
+        width: 450px;
+        height: 360px;
+    }
+    
+    .goodiea img {
+        width: 450px;
+        height: 360px;
+    }
+}
+
+/* Medium devices (tablets, 992px and below) */
+@media (max-width: 992px) {
+    .projectc h1 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    
+    .praise {
+        gap: 30px;
+        margin-top: 80px;
+    }
+    
+    .fg {
+        flex-direction: column;
+    }
+    
+    .goodiea {
+        width: 600px;
+        height: 480px;
+        margin: 15px 0;
+    }
+    
+    .goodiea img {
+        width: 600px;
+        height: 480px;
+    }
+    
+    .goodieb img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+/* Small devices (landscape phones, 768px and below) */
+@media (max-width: 768px) {
+    .projectc h1 {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    
+    .bless {
+        font-size: 1rem;
+    }
+    
+    .goodiea {
+        width: 450px;
+        height: 360px;
+    }
+    
+    .goodiea img {
+        width: 450px;
+        height: 360px;
+    }
+    
+    .goodieb img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+/* Extra small devices (portrait phones, 576px and below) */
+@media (max-width: 576px) {
+    .projectc h1 {
+        font-size: 30px;
+        padding-top: 70px;
+    }
+    
+    .praise {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .goodiea {
+        width: 320px;
+        height: 256px;
+        margin: 10px 0;
+    }
+    
+    .goodiea img {
+        width: 320px;
+        height: 256px;
+    }
+    
+    .goodieb img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+/* Very small devices (350px and below) */
+@media (max-width: 350px) {
+    .projectc h1 {
+        font-size: 26px;
+    }
+    
+    .goodiea {
+        width: 280px;
+        height: 224px;
+    }
+    
+    .goodiea img {
+        width: 280px;
+        height: 224px;
+    }
+    
+    .goodieb img {
+        height: 50px;
+        width: 50px;
+    }
+}

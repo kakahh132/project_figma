@@ -1,0 +1,64 @@
+
+.Footer {
+    align-items: center;
+    background: url('../../assets/Group 7.png');
+    background-size: cover;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+/* ============================================ */
+/* Responsive Styles */
+/* ============================================ */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .Footer {
+        height: 90px;
+        padding-top: 40px;
+    }
+    
+    .Footer p {
+        font-size: 15px;
+    }
+}
+
+/* Large phones (576px and below) */
+@media (max-width: 576px) {
+    .Footer {
+        height: 80px;
+        padding-top: 35px;
+    }
+    
+    .Footer p {
+        font-size: 14px;
+    }
+}
+
+/* Small phones (400px and below) */
+@media (max-width: 400px) {
+    .Footer {
+        height: 70px;
+        padding-top: 30px;
+    }
+    
+    .Footer p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
+
+/* Very small phones (350px and below) */
+@media (max-width: 350px) {
+    .Footer {
+        height: 60px;
+        padding-top: 25px;
+    }
+    
+    .Footer p {
+        font-size: 12px;
+    }
+}

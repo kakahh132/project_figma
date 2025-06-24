@@ -1,0 +1,102 @@
+/* Original CSS (unchanged) */
+nav {
+    width: 100%;
+    color: #fff;
+    padding: 4px 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background: #00193E;
+}
+
+.Vector {
+    width: 50px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+}
+
+/* ============================================ */
+/* Responsive Styles */
+/* ============================================ */
+
+/* Large desktops (1200px and up) */
+@media (max-width: 1200px) {
+    nav ul li {
+        margin: 5px 15px;
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (tablets, 992px and below) */
+@media (max-width: 992px) {
+    nav ul li {
+        margin: 5px 12px;
+        font-size: 14px;
+    }
+    
+    .Vector {
+        width: 45px;
+    }
+}
+
+/* Small devices (landscape phones, 768px and below) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    .Vector {
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 5px 10px;
+        font-size: 13px;
+    }
+}
+
+/* Extra small devices (portrait phones, 576px and below) */
+@media (max-width: 576px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+/* Very small devices (350px and below) */
+@media (max-width: 350px) {
+    .Vector {
+        width: 40px;
+    }
+    
+    nav ul li {
+        font-size: 13px;
+    }
+}
