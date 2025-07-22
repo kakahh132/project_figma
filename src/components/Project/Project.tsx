@@ -32,7 +32,7 @@ const Project = () => {
         </div>
 
         {/* First Project Section */}
-        <div className="body">
+        <div className="body font-inter">
           <div className="bodya">
             <img src={Mask} alt="Project showcase" />
           </div>
@@ -50,7 +50,7 @@ const Project = () => {
                 <img src={Vect} alt="Vector icon" />
               </div>
             </div>
-          </div>
+           </div>
         </div>
 
         {/* Second Project Section */}
