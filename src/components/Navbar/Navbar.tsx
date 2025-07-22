@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className='container'>
       <img src={Vector} alt=""  className='Vector'/>
       <ul>
-        <Link to='/Hero'><li>Home</li></Link>
+        <Link to='/'><li>Home</li></Link>
         <li>Services</li>
         <Link to='/Project'><li>Portfolio </li></Link>
         <li>Hire me</li>
